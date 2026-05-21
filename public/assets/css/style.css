@@ -1,0 +1,132 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('/assets/image/bg.jpeg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======================
+   AUTH CARD (LOGIN / REGISTER)
+====================== */
+.auth-container {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+/* Logo Wrapper */
+.logo {
+    position: relative;
+    right: -60px; 
+    z-index: 2;   
+}
+
+/* Logo Image */
+.logo img {
+    width: 380px;   
+    height: 380px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: transparent;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.auth-card {
+    width: 420px;
+    padding: 35px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(15px);
+}
+
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    background: transparent;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: #3AA300;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ======================
+   DASHBOARD + SIDEBAR
+====================== */
+.dashboard {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(14px);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.sidebar a:hover {
+    color: #3AA300;
+}
+
+.sidebar form {
+    margin-top: auto;
+}
+
+.sidebar button {
+    background: #3AA300;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
