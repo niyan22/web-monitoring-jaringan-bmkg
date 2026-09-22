@@ -38,6 +38,7 @@
         {{-- ✅ FORM LOGIN BREEZE --}}
         <form method="POST" action="{{ route('login') }}">
             @csrf
+            <label>Username</label> 
 
             <input
                 class="input"
@@ -48,6 +49,7 @@
                 required
                 autofocus
             >
+            <label>Password</label>
 
             <input
                 class="input"
